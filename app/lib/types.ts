@@ -18,7 +18,7 @@ export interface Thesis {
   title: string;
   summary: string | null;
   description: string | null;
-  status: 'ACTIVE' | 'ARCHIVED' | 'RESOLVED';
+  status: 'DRAFT' | 'ACTIVE' | 'ARCHIVED' | 'RESOLVED';
   visibility: 'PUBLIC' | 'PRIVATE' | 'UNLISTED';
   currentConfidence: number;
   confidenceRationale: string | null;
@@ -30,6 +30,8 @@ export interface Thesis {
   originalSource: string | null;
   tags: Tag[];
   criteria?: Criterion[];
+  expiresAt: string | null;
+  resolution: string | null;
   createdAt: string;
   updatedAt: string;
 }
