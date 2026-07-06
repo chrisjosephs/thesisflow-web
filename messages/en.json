@@ -8,7 +8,9 @@
     "subtitle": "Propositions whose confidence changes as evidence arrives.",
     "empty": "No public theses yet.",
     "engineError": "Could not reach the engine. Is it running?",
-    "confidence": "{pct}% confidence",
+    "creatorConfidence": "evidence",
+    "authorConfidence": "author",
+    "communityConfidence": "community",
     "by": "by {author}"
   },
   "ThesisPage": {
@@ -20,6 +22,9 @@
     "supports": "What would support it",
     "falsifies": "What would falsify it",
     "watchSignals": "Watch signals",
-    "argueTheToss": "Argue the toss!"
+    "argueTheToss": "Argue the toss!",
+    "communityConfidence": "Community confidence",
+    "communityCount": "{count} vote(s)",
+    "communityStale": "votes may not reflect recent evidence"
   }
 }

@@ -116,6 +116,16 @@ export default async function ThesisPage({ params }: { params: Promise<{ locale:
           value={thesis.aiStatedConfidence}
           sublabel={thesis.aiStatedRationale ?? undefined}
         />
+        {thesis.community.average !== null && (
+          <ConfidenceBar
+            label={t('communityConfidence')}
+            value={thesis.community.average}
+            sublabel={[
+              t('communityCount', { count: thesis.community.count }),
+              thesis.community.maybeStale ? t('communityStale') : null,
+            ].filter(Boolean).join(' · ')}
+          />
+        )}
       </section>
 
       {thesis.description && (

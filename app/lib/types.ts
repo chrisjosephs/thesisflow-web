@@ -13,6 +13,12 @@ export interface Criterion {
   currentFulfillment: number;
 }
 
+export interface CommunityConfidence {
+  average: number | null;
+  count: number;
+  maybeStale: boolean;
+}
+
 export interface Thesis {
   id: string;
   title: string;
@@ -28,6 +34,7 @@ export interface Thesis {
   relevanceScore: number | null;
   originalAuthor: string | null;
   originalSource: string | null;
+  community: CommunityConfidence;
   tags: Tag[];
   criteria?: Criterion[];
   expiresAt: string | null;

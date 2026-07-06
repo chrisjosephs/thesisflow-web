@@ -7,8 +7,10 @@
     "title": "Explorer les thèses",
     "subtitle": "Des propositions dont la confiance évolue au fil des preuves.",
     "empty": "Aucune thèse publique pour l'instant.",
-    "engineError": "Impossible de contacter le moteur. Est-il en cours d'exécution ?",
-    "confidence": "{pct} % de confiance",
+    "engineError": "Impossible de contacter le moteur. Est-il en cours d'exécution ?",
+    "creatorConfidence": "preuves",
+    "authorConfidence": "auteur",
+    "communityConfidence": "communauté",
     "by": "par {author}"
   },
   "ThesisPage": {
@@ -20,6 +22,9 @@
     "supports": "Ce qui le soutiendrait",
     "falsifies": "Ce qui le réfuterait",
     "watchSignals": "Signaux à surveiller",
-    "argueTheToss": "Contestez le verdict !"
+    "argueTheToss": "Contestez le verdict !",
+    "communityConfidence": "Confiance de la communauté",
+    "communityCount": "{count} vote(s)",
+    "communityStale": "les votes ne reflètent peut-être pas les dernières preuves"
   }
 }
