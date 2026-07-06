@@ -1,0 +1,25 @@
+{
+  "Nav": {
+    "brand": "ThesisFlow",
+    "explore": "explore"
+  },
+  "HomePage": {
+    "title": "Explore theses",
+    "subtitle": "Propositions whose confidence changes as evidence arrives.",
+    "empty": "No public theses yet.",
+    "engineError": "Could not reach the engine. Is it running?",
+    "confidence": "{pct}% confidence",
+    "by": "by {author}"
+  },
+  "ThesisPage": {
+    "confidence": "Confidence",
+    "evidenceBased": "Evidence-based",
+    "authorConfidence": "Author ({author})",
+    "aiEstimate": "AI estimate",
+    "criteria": "Criteria",
+    "supports": "What would support it",
+    "falsifies": "What would falsify it",
+    "watchSignals": "Watch signals",
+    "argueTheToss": "Argue the toss!"
+  }
+}

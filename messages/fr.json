@@ -1,0 +1,25 @@
+{
+  "Nav": {
+    "brand": "ThesisFlow",
+    "explore": "explorer"
+  },
+  "HomePage": {
+    "title": "Explorer les thèses",
+    "subtitle": "Des propositions dont la confiance évolue au fil des preuves.",
+    "empty": "Aucune thèse publique pour l'instant.",
+    "engineError": "Impossible de contacter le moteur. Est-il en cours d'exécution ?",
+    "confidence": "{pct} % de confiance",
+    "by": "par {author}"
+  },
+  "ThesisPage": {
+    "confidence": "Niveau de confiance",
+    "evidenceBased": "Basé sur les preuves",
+    "authorConfidence": "Auteur ({author})",
+    "aiEstimate": "Estimation IA",
+    "criteria": "Critères",
+    "supports": "Ce qui le soutiendrait",
+    "falsifies": "Ce qui le réfuterait",
+    "watchSignals": "Signaux à surveiller",
+    "argueTheToss": "Contestez le verdict !"
+  }
+}
