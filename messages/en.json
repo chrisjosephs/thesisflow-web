@@ -1,7 +1,9 @@
 {
   "Nav": {
     "brand": "ThesisFlow",
-    "explore": "explore"
+    "explore": "Explore",
+    "contend": "Create Your Thesis",
+    "help": "Help"
   },
   "HomePage": {
     "title": "Explore theses",
@@ -26,5 +28,49 @@
     "communityConfidence": "Community confidence",
     "communityCount": "{count} vote(s)",
     "communityStale": "votes may not reflect recent evidence"
+  },
+  "CreateThesisPage": {
+    "title": "Contend a thesis",
+    "subtitle": "State your position. Define what would prove you wrong.",
+    "sectionThesis": "The thesis",
+    "titleLabel": "Title",
+    "titlePlaceholder": "State your thesis clearly and directly.",
+    "summaryLabel": "Summary",
+    "summaryPlaceholder": "One or two sentences. What is the core claim?",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "The full argument — context, reasoning, caveats.",
+    "sectionConfidence": "Your confidence",
+    "confidenceLabel": "Author confidence — {pct}%",
+    "confidenceHelp": "Your honest assessment before the evidence runs. This is recorded as your stated position, not an AI estimate.",
+    "sectionDetails": "Details",
+    "visibilityLabel": "Visibility",
+    "visibilityPublic": "Public — listed in explore",
+    "visibilityUnlisted": "Unlisted — only via direct link",
+    "visibilityPrivate": "Private — only you",
+    "monitoringLabel": "Monitoring profile",
+    "monitoringNone": "Choose a monitoring profile",
+    "expiresLabel": "Expires at",
+    "expiresHelp": "Leave blank for open-ended theses. Set a date for predictions with a natural end point — e.g. a sporting event, an election.",
+    "tagsLabel": "Tags",
+    "tagsPlaceholder": "nvidia, ai-infrastructure, semiconductors",
+    "tagsHelp": "Comma-separated.",
+    "sectionCriteria": "Criteria",
+    "criteriaCallout": "A thesis can only be as good as the criteria you test it by.",
+    "criteriaHelp": "Define what would support your thesis, what would falsify it, and what signals to monitor. Be specific — a vague criterion is an untestable one.",
+    "addSupport": "+ Add support criterion",
+    "addFalsify": "+ Add falsification criterion",
+    "addWatch": "+ Add watch signal",
+    "criterionDescriptionPlaceholder": "What is the specific, observable condition?",
+    "criterionRationaleLabel": "Why does this criterion matter? (optional)",
+    "criterionRationalePlaceholder": "The reasoning behind this criterion.",
+    "remove": "Remove",
+    "typeSUPPORT": "Support",
+    "typeFALSIFY": "Falsify",
+    "typeWATCH_SIGNAL": "Watch signal",
+    "saveDraft": "Save as draft",
+    "contend": "Contend this thesis!",
+    "saving": "Saving…",
+    "errorGeneric": "Could not save the thesis. Is the engine running?",
+    "requiresAuth": "You need to be signed in to contend a thesis."
   }
 }

@@ -8,5 +8,22 @@ async function get<T>(path: string): Promise<T> {
   return res.json() as Promise<T>;
 }
 
-export const getTheses  = ()          => get<Thesis[]>(`/theses`);
-export const getThesis  = (id: string) => get<Thesis>(`/theses/${id}`);
+async function post<T>(path: string, body: unknown, token?: string): Promise<T> {
+  const res = await fetch(`${ENGINE}${path}`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
+    },
+    body: JSON.stringify(body),
+  });
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`Engine error ${res.status}: ${text}`);
+  }
+  return res.json() as Promise<T>;
+}
+
+export const getTheses     = ()                                         => get<Thesis[]>('/theses');
+export const getThesis     = (id: string)                               => get<Thesis>(`/theses/${id}`);
+export const createThesis  = (body: unknown, token: string)             => post<Thesis>('/theses', body, token);

@@ -1,7 +1,9 @@
 {
   "Nav": {
     "brand": "ThesisFlow",
-    "explore": "explorer"
+    "explore": "Explorer",
+    "contend": "Créer votre thèse",
+    "help": "Aide"
   },
   "HomePage": {
     "title": "Explorer les thèses",
@@ -26,5 +28,49 @@
     "communityConfidence": "Confiance de la communauté",
     "communityCount": "{count} vote(s)",
     "communityStale": "les votes ne reflètent peut-être pas les dernières preuves"
+  },
+  "CreateThesisPage": {
+    "title": "Défendre une thèse",
+    "subtitle": "Énoncez votre position. Définissez ce qui prouverait votre tort.",
+    "sectionThesis": "La thèse",
+    "titleLabel": "Titre",
+    "titlePlaceholder": "Énoncez votre thèse clairement et directement.",
+    "summaryLabel": "Résumé",
+    "summaryPlaceholder": "Une ou deux phrases. Quelle est l'affirmation centrale ?",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "L'argument complet — contexte, raisonnement, nuances.",
+    "sectionConfidence": "Votre confiance",
+    "confidenceLabel": "Confiance de l'auteur — {pct} %",
+    "confidenceHelp": "Votre évaluation honnête avant que les preuves n'arrivent. Enregistrée comme votre position déclarée, pas une estimation IA.",
+    "sectionDetails": "Détails",
+    "visibilityLabel": "Visibilité",
+    "visibilityPublic": "Publique — visible dans explorer",
+    "visibilityUnlisted": "Non répertoriée — via lien direct uniquement",
+    "visibilityPrivate": "Privée — vous seul",
+    "monitoringLabel": "Profil de surveillance",
+    "monitoringNone": "Choisir un profil de surveillance",
+    "expiresLabel": "Expire le",
+    "expiresHelp": "Laissez vide pour les thèses ouvertes. Définissez une date pour les prédictions avec une échéance naturelle.",
+    "tagsLabel": "Étiquettes",
+    "tagsPlaceholder": "nvidia, ia-infrastructure, semiconducteurs",
+    "tagsHelp": "Séparées par des virgules.",
+    "sectionCriteria": "Critères",
+    "criteriaCallout": "Une thèse ne peut être qu'aussi bonne que les critères avec lesquels on la teste.",
+    "criteriaHelp": "Définissez ce qui soutiendrait votre thèse, ce qui la réfuterait, et les signaux à surveiller. Soyez précis — un critère vague est un critère impossible à tester.",
+    "addSupport": "+ Ajouter un critère de soutien",
+    "addFalsify": "+ Ajouter un critère de réfutation",
+    "addWatch": "+ Ajouter un signal à surveiller",
+    "criterionDescriptionPlaceholder": "Quelle est la condition spécifique et observable ?",
+    "criterionRationaleLabel": "Pourquoi ce critère est-il important ? (optionnel)",
+    "criterionRationalePlaceholder": "Le raisonnement derrière ce critère.",
+    "remove": "Supprimer",
+    "typeSUPPORT": "Soutien",
+    "typeFALSIFY": "Réfutation",
+    "typeWATCH_SIGNAL": "Signal",
+    "saveDraft": "Enregistrer comme brouillon",
+    "contend": "Défendre cette thèse !",
+    "saving": "Enregistrement…",
+    "errorGeneric": "Impossible d'enregistrer la thèse. Le moteur est-il en cours d'exécution ?",
+    "requiresAuth": "Vous devez être connecté pour défendre une thèse."
   }
 }
